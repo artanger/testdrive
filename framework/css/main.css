@@ -220,8 +220,8 @@ footer > ul li a > i {
 .container {
     display: flex;
     justify-content: center;         
-     border-bottom: 1px solid #ccc;  
-    height: 50px;
+    border-bottom: 1px solid #ccc;  
+    height: 38px;
 }
 .tab {
     display: flex;
@@ -229,7 +229,7 @@ footer > ul li a > i {
     margin: 1px;   
     border-right:  1px solid #ccc;
     width: 300px; 
-    line-height: 50px;
+    line-height: 38px;
 }
 .tab:nth-child(3) {
     border: none;
@@ -237,11 +237,19 @@ footer > ul li a > i {
 .tabs-one img, .tabs-two img, .tabs-three img {
     height: 20px;
     width: 20px;
-    padding: 15px 0px 15px 0px;
+    padding: 9px 0px;
     margin-right: 150px;
+}
+.tabs-three img {
+    padding-top: 6px;
 }
 .t-text {
     margin-left: -170px;
+    font-size: 9px;
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-weight: bold;
+    letter-spacing: -0.5px;
 }
 .rates {
     width: 100%;
@@ -272,6 +280,14 @@ footer > ul li a > i {
 .flex-container .one {
     color: #aaa;
 }
+.flex-container .one .line-one {
+    display: block;
+    line-height: 12px;
+    margin: 11px 0 -16px 0;
+}
+.flex-container .one .line-two {
+        line-height: 12px;
+}
 .flex-container .btn {
     background: linear-gradient(to bottom, rgba(252,252,252,1) 0%,rgba(226,226,226,1) 100%);
     border: 1px solid #aaa;
@@ -282,6 +298,26 @@ footer > ul li a > i {
     cursor: pointer;
     border-radius: 3px;
     align-self: center;
+}
+
+.flex-container .btn .number, 
+.flex-container .btn .numbertwo {
+    font-family: "Arial";
+    display: block;
+}
+
+.flex-container .btn .number {
+    line-height: 25px;
+    text-align: left;
+    margin-left:  10px;
+    color: #aaa;
+}
+
+.flex-container .btn .numbertwo {
+    margin-top: -38px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
 }
 
 /*mediaQueries .case-title*/
