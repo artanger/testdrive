@@ -3,23 +3,17 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
   <title>CSS Testimonial</title>
   <meta name="description" content="CSS Testimonial">
   <meta name="author" content="Bergx2 GmbH">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
   <q></q>
-
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
 </head>
-
 <body>
-
 	<div id="wrapper" data-role="page" data-theme="a">
-
 		<header data-role="header" data-position="fixed" data-fullscreen="true">
 			<div id="row">
 				<div id="left-menu">
@@ -36,100 +30,67 @@
 					</a>
 				</div>
 			</div>
-
-			
 		</header>		
-
-			<div class="case" >
-				<img class="chevron-item-left " src="../sources/assets/chevron-small-left.svg">		
-
-					<p class="case-title ">CHAMPIONS LEAGUE/GRUPPE D</p>
-
-
-
-				<img class="star-item-right" src="../sources/assets/star.svg" >				
-			</div>
-
-			<div class="fc">
-				<p class="fc-left">Galatasaray</p> 
-				<p class="fc-right">FCBayernMünchen</p> 
-			</div>
-
+		<div class="case" >
+			<img class="chevron-item-left " src="../sources/assets/chevron-small-left.svg">		
+			<p class="case-title ">CHAMPIONS LEAGUE/GRUPPE D</p>
+			<img class="star-item-right" src="../sources/assets/star.svg" >				
+		</div>
+		<div class="fc">
+			<p class="fc-left">Galatasaray</p> 
+			<p class="fc-right">FCBayernMünchen</p> 
+		</div>
 		<div class="bg_board">
 		    <div class="score ">1</div>
 		    <div class="score halzeit">:</div>
 		    <div class="score ">0</div>		    
 		</div>	
-
-
-<div class="container">
-	
-		<div class="tab tabs-one">
-			<img src="../sources/assets/livestream.svg" alt=""><p class="t-text">Live Stream</p>
+		<div class="container">
+			<div class="tab tabs-one">
+				<img src="../sources/assets/livestream.svg" alt=""><p class="t-text">Live Stream</p>
+			</div>
+			<div class="tab tabs-two">
+				<img src="../sources/assets/tracker.svg" alt=""><p class="t-text" >Live Tracker</p>
+			</div>
+			<div class="tab tabs-three">
+				<img src="../sources/assets/stats.svg" alt=""><p class="t-text" >Statistiken</p>
+			</div>
 		</div>
-		<div class="tab tabs-two">
-			<img src="../sources/assets/tracker.svg" alt=""><p class="t-text" >Live Tracker</p>
-		</div>
-		<div class="tab tabs-three">
-			<img src="../sources/assets/stats.svg" alt=""><p class="t-text" >Statistiken</p>
-		</div>
-
-	
-	
-</div>
-
-
 		<div class="rates">
-			 <div class="flex-container">
-			 	<div class="box one">TIPP</div>
-			 	<div class="box two">
-			 		
-			 	</div>
-			 	<div class="box three"></div>
-			 	<div class="box four"></div>
+			 <div class="flex-container odd">
+			 	<div class="one">TIPP</div>
+			 	<div class="btn"></div>
+			 	<div class="btn"></div>
+			 	<div class="btn"></div>
 			 </div>
-			  <div class="flex-container">
-			 	<div class="box one">Handicap</div>
-			 	<div class="box two"></div>
-			 	<div class="box three"></div>
-			 	<div class="box four"></div>
+			  <div class="flex-container even">
+			 	<div class="one">Handicap</div>
+			 	<div class="btn"></div>
+			 	<div class="btn"></div>
+			 	<div class="btn"></div>
 			 </div>
-			  <div class="flex-container">
-			 	<div class="box one">Über/Unter</div>
-			 	<div class="box two"></div>
-			 	<div class="box "></div>
-			 	<div class="box four"></div>
+			  <div class="flex-container odd">
+			 	<div class="one">Über/Unter</div>
+			 	<div class="btn"></div>
+			 	<div class="empty"></div>
+			 	<div class="btn"></div>
 			 </div>
-			  <div class="flex-container">
-			 	<div class="box one">Torschütze</div>
-			 	<div class="box "></div>
-			 	<div class="box three"></div>
-			 	<div class="box four"></div>
+			  <div class="flex-container even">
+			 	<div class="one">Torschütze</div>
+			 	<div class="one">Max Kruse</div>
+			 	<div class="btn"></div>
+			 	<div class="btn"></div>
 			 </div>
-
 		</div>
-
-
-
-
-
-			
-
- 		 
 		<aside id="left" data-role="panel" data-position="left" data-display="push">
 			<a href="#" data-rel="close">Close panel</a>
 		</aside>
-
 		<aside id="right" data-role="panel" data-position="right" data-display="push">
 			<a href="#" data-rel="close">Close panel</a>
 		</aside>
-
-		<main data-role="content" data-enhance="false">
-		</main>
+		<main data-role="content" data-enhance="false"></main>
 		<footer data-role="footer">
-	
 	</div>
-
 
 	<!-- scripts -->	
 	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
